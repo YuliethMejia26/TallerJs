@@ -2,10 +2,10 @@ let nombreUsuario="Yulieth";
 let peso=80;
 let altura=1.29;
 let IMC=0;
-let porcentajePesoCorporal=0;
+let pesoCorporal=0;
 
-porcentajePesoCorporal= peso / (altura*altura);
-IMC=porcentajePesoCorporal;
+pesoCorporal= peso / (altura*altura);
+IMC=pesoCorporal;
 
 
 if (IMC<=18,5){
